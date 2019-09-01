@@ -1,0 +1,5 @@
+type EmptyPageProps = {
+
+};
+
+export { EmptyPageProps };

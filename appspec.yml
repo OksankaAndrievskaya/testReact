@@ -1,0 +1,19 @@
+version: 0.0
+os: linux
+files:
+  - source: /
+#    destination: /home/ubuntu/openschool-codedeploy-version
+    destination: /home/ubuntu/react-market-place
+hooks:
+ BeforeInstall:
+   - location: /scripts/clean_dist.sh
+     timeout: 300
+     runas: root
+#hooks:
+#  AfterInstall:
+#    # - location: scripts/install_dependencies
+#    #   timeout: 300
+#    #   runas: root
+#    - location: scripts/start_server
+#      timeout: 300
+#      runas: root

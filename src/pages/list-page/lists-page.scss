@@ -1,0 +1,16 @@
+@import '~styles/variables.scss';
+
+.textarea-wrapper{
+  display: inline;
+  .textarea{
+    width: 100%;
+    font-size: 1rem;
+    margin-bottom: 1.5rem;
+    &::placeholder{
+      font-size: 1rem;
+    }
+  }
+}
+.custom-pagination{
+ display: inline !important;
+}
